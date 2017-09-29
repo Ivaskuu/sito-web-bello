@@ -1,5 +1,6 @@
 # sito-web-bello
 Questo progetto consiste nella creazione del mio primo sito web usando non solo HTML ma anche CSS.
+![alt text](immagini/screenshot.png "Sito")
 
 ## Da fare
 - [x] Navbar trasparente
