@@ -1,0 +1,88 @@
+body
+{
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.navbar
+{
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: right;
+}
+
+.navbar-a:link, .navbar-a:visited
+{
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-a:hover
+{
+  color: gray;
+  background-color: white;
+}
+
+.header
+{
+  background-image: url("../immagini/montagna.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh; /* vh=viewport height*/
+  color: white;
+}
+
+.center-title
+{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title-text
+{
+  padding: 0px 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2em;
+}
+
+p
+{
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.immagine-parallax-strada
+{
+  background-image: url("../immagini/road.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  background-attachment: fixed;
+  color: white;
+}
+
+.immagine-parallax-iphone
+{
+  background-image: url("../immagini/iphone.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  background-attachment: fixed;
+  color: white;
+}
+
+.footer
+{
+  background-color: darkgray;
+}
+
+.footer-testo
+{
+  margin: 0px;
+  padding: 20px;
+}
