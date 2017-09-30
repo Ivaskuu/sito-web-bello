@@ -27,12 +27,11 @@ body
 
 .header
 {
-  background-image: url("../immagini/montagna.jpeg");
+  background-image: url("../immagini/macbook.jpg");
   background-position: center;
   background-size: cover;
   height: 60vh; /* vh=viewport height */
   color: white;
-  border: dashed 10px red;
 }
 
 .center-title
@@ -45,28 +44,17 @@ body
 
 p
 {
-  margin-left: 35px;
-  margin-right: 35px;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  line-height: 170%;
+  padding-bottom: 20px;
+  margin: auto;
 }
 
-.immagine-parallax-strada
+a
 {
-  background-image: url("../immagini/road.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 60vh;
-  background-attachment: fixed;
-  color: white;
-}
-
-.immagine-parallax-iphone
-{
-  background-image: url("../immagini/iphone.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 60vh;
-  background-attachment: fixed;
-  color: white;
+  text-decoration: none;
+  color: cadetblue;
 }
 
 .footer
@@ -74,7 +62,7 @@ p
   background-color: darkgray;
 }
 
-.footer-testo
+.footer p
 {
   margin: 0px;
   padding: 20px;
