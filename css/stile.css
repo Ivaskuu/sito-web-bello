@@ -6,22 +6,23 @@ body
 
 .navbar
 {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: white;
   padding: 20px;
-  text-align: right;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.navbar-a:link, .navbar-a:visited
+.navbar a:link, .navbar a:visited
 {
-  padding: 20px;
-  color: white;
+  padding: 30px;
+  color: black;
   text-decoration: none;
 }
 
-.navbar-a:hover
+.navbar a:hover
 {
-  color: gray;
-  background-color: white;
+  color: forestgreen;
 }
 
 .header
@@ -29,8 +30,9 @@ body
   background-image: url("../immagini/montagna.jpeg");
   background-position: center;
   background-size: cover;
-  height: 100vh; /* vh=viewport height*/
+  height: 60vh; /* vh=viewport height */
   color: white;
+  border: dashed 10px red;
 }
 
 .center-title
@@ -39,15 +41,6 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.header-title-text
-{
-  padding: 0px 60px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 2em;
 }
 
 p
